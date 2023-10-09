@@ -36,7 +36,7 @@ def find_duplicate_files(directory):
 
 # Example usage
 if __name__ == "__main__":
-    directory = "/home/cruz/mnt/synology/music/"
+    directory = "DIR_NAME_GOES_HERE"
     duplicate_files = find_duplicate_files(directory)
 
     if duplicate_files:
